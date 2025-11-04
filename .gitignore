@@ -1,0 +1,17 @@
+# Dependensi
+/node_modules
+
+# Build production
+/dist
+
+# File environment (SANGAT PENTING!)
+# Ini berisi API key dan link rahasia Anda
+.env
+.env.local
+.env.*.local
+
+# Log dan file OS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
